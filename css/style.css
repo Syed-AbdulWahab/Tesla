@@ -1,0 +1,194 @@
+body{background-image: url("../img/wahab1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;}
+    .navnar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    /* border:2px solid #eee; */
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+
+
+
+
+
+  nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+   nav li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+  
+    
+      .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .col-2{
+        flex-basis:50%;
+        min-width:300px;
+    }
+    .col-2 img{
+        max-width:100%;
+        padding:50px 0px 50px 50px; 
+    }
+    
+    .col-2 h1{
+        font-size:50px;
+        line-height:60px;
+        margin:25px 0;
+    }
+    
+    .btn{
+      display: inline-block;
+      background: #ff523b;
+      color:#fff;
+      padding:8px 30px;
+      margin:30px 0;
+      border-radius:30px;
+      transition: background 2s;
+  }
+    
+    .btn:hover{
+        background:red;
+    }
+
+    
+    .header .row{
+        margin-top:70px;
+    }
+    
+    
+  
+    
+    
+   
+   
+    
+   
+    }
+    .crt{
+        cursor: pointer;
+    }
+    
+    /* Code To off Copy Paste Using Css Start */
+    .noselect {
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+      }
+    /* Code To off Copy Paste Using Css End */
+    
+    
+      /* End Of Navigation Bat */
+   
+    
+      .small-container{
+          max-width: 1080px;
+          margin: auto;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+    
+      .col-4{
+          flex-basis: 25%;
+          padding: 10px;
+          min-width: 200px;
+          margin-bottom: 50px;
+          transition: transform 0.5s;
+      }
+      .col-4 img{
+          width: 100%;
+      }
+    
+      .title{
+          text-align: center;
+          margin: 0 auto 80px;
+          position: relative;
+          line-height: 60px;
+          color:#555;
+      }
+    
+      .title::after{
+          content:'';
+          background: #ff523b;
+          width: 80px;
+          height:5px;
+          border-radius:5px;
+          position: absolute;
+          bottom:0;
+          left: 50%;
+          transform: translateX(-50%);
+    
+      }
+      h4{
+          color:#555;
+          font-weight:normal;
+      }
+    
+      .col-4 p{
+        font-size:14px;
+      }
+      .rating{
+          color:#ff523b;
+      }
+      .col-4:hover{
+          transform: translateY(-5px);
+      }
+    
+    
+      /* ----------Offer------ */
+      .offer{ background-image: url("../img/light\ white.jpg");");
+  
+      
+      }
+      .col-2 .offer-img{
+          /* To change position of image */
+          padding: 50px;
+      }
+      small{
+        color:white;
+    
+      }
+    
+   
+    .ady-container{
+        
+        max-width:1300px;
+        margin:auto;
+        padding-left:25px;
+        padding-right:25px;
+    }
+      .footer{
+          background:#000;
+          color:#8a8a8a;
+          font-size:14px;
+          padding:60px 0 20px;
+      }
+    
